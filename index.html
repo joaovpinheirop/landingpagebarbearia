@@ -5,9 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <!-- MY css -->
-  <link rel="stylesheet" href="./assest/css/style.css">
-  <link rel="stylesheet" href="./assest/css/header.css">
 
   <!-- NORMALIZE CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -21,18 +18,42 @@
     href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Orbitron:wght@400;700;900&family=Poppins:ital,wght@0,400;0,900;1,100&family=Roboto:wght@300;400;500;900&display=swap"
     rel="stylesheet">
 
+  <!-- MY css -->
+  <link rel="stylesheet" href="./assest/css/style.css">
+  <link rel="stylesheet" href="./assest/css/header.css">
+
+
 </head>
 
 <body class="body">
 
-  <header class="header">
-    <nav class="bar-navigation">
-      <!-- <div class="navigation-logo">
+  <header class="home" id="pag-home">
+    <nav class="bar-navigation" id="navbar">
+      <div class="navigation-logo">
         <img class="navigation-img-logo" src="./assest/img/logo.png" alt="">
-      </div> -->
-      <ol class="navigation-list">
+      </div>
+      <ol class="navigation">
         <li>
-          <img src="./assest/img/menu.png" alt="">
+          <img onclick="" id='icon-menu' src="./assest/img/menu.png" alt="">
+        </li>
+
+      </ol>
+      <ol class="navigation-menu" id="list-menu">
+        <li>
+          Home
+        </li>
+        <li>
+          Sobre
+        </li>
+        <li>
+          Serviços
+        </li>
+        <li>Agendar</li>
+        <li>
+          <button id="icon-shop" class="btn-loja">
+            <img src="./assest/img/shoping.png" alt="">
+            Loja
+          </button>
         </li>
       </ol>
     </nav>
@@ -53,5 +74,7 @@
     </section>
   </header>
 </body>
+<script src="./assest/js/style.js"></script>
+<script src="./assest/js/navigation.js"></script>
 
 </html>

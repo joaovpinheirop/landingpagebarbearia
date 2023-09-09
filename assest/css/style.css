@@ -21,7 +21,7 @@
 }
 
 /* Header Styles */
-.header {
+.home {
   width: 100%;
   max-width: 1700px;
   height: min-content;
@@ -30,8 +30,11 @@
   color: white;
 }
 
+
+
+
 /* Pseudo-element for black and white background */
-.header::before {
+.home::before {
   content: "";
   position: absolute;
   top: 0;
@@ -45,31 +48,18 @@
 }
 
 
-/* barra de navegação */
-.bar-navigation {
-  display: flex;
-  flex-direction: row;
-  align-items: end;
-  justify-content: space-between;
-  padding: 2rem;
-}
 
-/* lista de navegação */
-.navigation-list {
-  width: 100%;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: end;
-  margin: 0;
-  padding: 0;
-  color: var(--color-text);
-}
+@media (min-width : 780px) {
 
-/* logo da barra de navegação */
-.navigation-img-logo {
-  width: 116.2px;
-  height: auto;
-  flex-shrink: 0;
+  .home {
+    height: 800px;
+  }
+
+  /* Pseudo-element for black and white background */
+  .home::before {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.00) 0%, var(--color-background) 100%), url('../img/headerFundo.png') center/cover no-repeat;
+    background-position: -100px -10px;
+    background-size: 1000px;
+  }
+
 }

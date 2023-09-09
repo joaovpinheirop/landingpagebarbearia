@@ -1,6 +1,7 @@
 /* Introdução a pagina */
 .intro {
   padding: 2rem;
+  padding-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,6 +47,7 @@
   line-height: normal;
 }
 
+/* text hora intro */
 .intro_horario {
   color: var(--color-secundary);
 
@@ -60,3 +62,165 @@
   color: var(--color-primary);
 
 }
+
+/* botão da loja */
+
+.btn-loja {
+  margin: 1rem;
+  color: #000000;
+  padding: .5rem;
+  background: 0;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+
+/* barra de navegação */
+.bar-navigation {
+  max-width: 1700px;
+  width: -webkit-fill-available;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+/* lista de navegação */
+.navigation {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  margin: 0;
+  padding: 0;
+  color: var(--color-text);
+}
+
+/* logo da barra de navegação */
+.navigation-img-logo {
+  width: 116.2px;
+  height: auto;
+  flex-shrink: 0;
+  display: none;
+}
+
+/* list do menu na navegação */
+.navigation-menu {
+  display: none;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 2rem;
+  margin-top: 4rem;
+  width: -webkit-fill-available;
+  background-color: #ffffff8a;
+  border-radius: 1rem;
+  font-weight: 800;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+
+  color: #030303;
+}
+
+/* itens do menu  */
+.navigation-menu li {
+  margin: 10px;
+
+}
+
+@media (min-width : 780px) {
+
+  /* barra de navegação */
+  .bar-navigation {
+    margin-inline: 10rem;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  /* lista de navegação */
+  .navigation {
+    display: none;
+  }
+
+  /* menu */
+  .navigation-menu {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    background-color: #00000000;
+    font-weight: 400;
+    align-items: center;
+    color: #ffffff;
+    width: auto;
+  }
+
+  /* logo da barra de navegação */
+  .navigation-img-logo {
+    display: block;
+  }
+
+  /* botão da loja */
+
+  .btn-loja {
+    margin: 1rem;
+    color: var(--color-primary);
+    padding: .5rem;
+    background: 0;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+  }
+
+  /* Introdução a pagina */
+  .intro {
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+    margin-right: 100px;
+    position: relative;
+    top: 30%;
+    justify-content: center;
+    float: right;
+  }
+
+
+  /* Logo da empresa no incio da pagina */
+  .intro-img-logo {
+    width: 200px;
+    height: auto;
+  }
+
+  /* Title at the beginning of the page */
+  .intro-title {
+    font-size: 68px;
+    font-weight: 800;
+    margin: 0;
+    /* You can add any additional styling or margin/padding as needed */
+  }
+
+  /* Subtiitulo da pagina inicial */
+  .intro-subtitle {
+    font-size: 20px;
+  }
+
+  /* text agenda inicio */
+  .intro_agenda {
+    font-size: 20px;
+  }
+
+  /* text hora intro */
+  .intro_horario {
+    font-size: 15px;
+  }
+
+
+
+
+}
+
+@media (min-width : 970px) {}
