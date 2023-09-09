@@ -1,0 +1,62 @@
+/* Introdução a pagina */
+.intro {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Logo da empresa no incio da pagina */
+.intro-img-logo {
+  width: 100px;
+  height: auto;
+}
+
+/* Title at the beginning of the page */
+.intro-title {
+  color: var(--color-primary);
+  text-align: center;
+  letter-spacing: 1px;
+  /* Added letter-spacing for better readability */
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0;
+  /* You can add any additional styling or margin/padding as needed */
+}
+
+/* Subtiitulo da pagina inicial */
+.intro-subtitle {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+/* text agenda inicio */
+.intro_agenda {
+  text-align: center;
+  leading-trim: both;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.intro_horario {
+  color: var(--color-secundary);
+
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.intro_horario em {
+  color: var(--color-primary);
+
+}

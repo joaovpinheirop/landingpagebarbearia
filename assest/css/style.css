@@ -1,0 +1,75 @@
+:root {
+  --color-primary: #4ABD78;
+  --color-background: #030303;
+  ;
+  --color-text: white;
+
+  --font-text: 15px;
+  --font-title: 30px;
+
+}
+
+
+/* corpo do html */
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  background: var(--color-background);
+
+}
+
+/* Header Styles */
+.header {
+  width: 100%;
+  max-width: 1700px;
+  height: min-content;
+  position: relative;
+  /* Add position relative to enable pseudo-element */
+  color: white;
+}
+
+/* Pseudo-element for black and white background */
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 43.75%, #030303 90%), url('../img/headerFundo.png') center/cover no-repeat;
+  filter: grayscale(100%);
+  z-index: -1;
+  /* Place it behind other content */
+}
+
+
+/* barra de navegação */
+.bar-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+/* lista de navegação */
+.navigation-list {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  margin: 0;
+  padding: 0;
+  color: var(--color-text);
+}
+
+/* logo da barra de navegação */
+.navigation-img-logo {
+  width: 116.2px;
+  height: auto;
+  flex-shrink: 0;
+}
