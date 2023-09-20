@@ -6,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index: -1;
 }
 
 /* Logo da empresa no incio da pagina */
@@ -130,6 +131,10 @@
 .navigation-menu li {
   margin: 10px;
 
+}
+
+#nav-home {
+  cursor: pointer;
 }
 
 @media (min-width : 780px) {

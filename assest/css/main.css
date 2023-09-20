@@ -1,4 +1,7 @@
 .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
   /* Define a altura do elemento para 100% da altura da viewport */
   width: 100%;
@@ -8,12 +11,51 @@
 
 
 .barbeiro {
+  max-width: 1000px;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .barbeiro-img-perfil {
   padding: 2rem;
-  width: 100%;
-  height: auto;
-  border-radius: 257px;
+  width: 196px;
+  height: 195px;
+  flex-shrink: 0;
+  border-radius: 30ch;
+}
+
+.barbeiro-description {
+  color: #FFF;
+  padding: 3rem;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+
+}
+
+.barbeiro-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  .barbeiro-img-perfil {
+    width: 402px;
+    height: 399px;
+  }
+
+  .barbeiro {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
