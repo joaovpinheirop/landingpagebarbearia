@@ -1,0 +1,19 @@
+.main {
+  height: 100vh;
+  /* Define a altura do elemento para 100% da altura da viewport */
+  width: 100%;
+  background: linear-gradient(45deg, #000 20%, rgba(0, 0, 0, 0.00) 50%, var(--color-primary) 100%);
+}
+
+
+
+.barbeiro {
+  color: white;
+}
+
+.barbeiro-img-perfil {
+  padding: 2rem;
+  width: 100%;
+  height: auto;
+  border-radius: 257px;
+}
