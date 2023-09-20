@@ -22,4 +22,4 @@ Este projeto é destinado apenas para fins de estudo e demonstração. Contribui
 
 - Nome: Joao Vitor
 - Email: joaovpinheiros@gmail.com
-- GitHub: [[JoaoVPinheiroS](https://github.com/joaovpinheirop)]
+- GitHub: [[joaovpinheirop](https://github.com/joaovpinheirop)]
