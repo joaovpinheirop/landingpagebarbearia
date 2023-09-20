@@ -20,6 +20,6 @@ Este projeto é destinado apenas para fins de estudo e demonstração. Contribui
 
 ## Autor
 
-- Nome: Seu Nome
-- Email: seu.email@example.com
-- GitHub: [Seu Perfil no GitHub](https://github.com/seu-usuario)
+- Nome: Joao Vitor
+- Email: joaovpinheiros@gmail.com
+- GitHub: [[JoaoVPinheiroS](https://github.com/joaovpinheirop)]
