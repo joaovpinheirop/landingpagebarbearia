@@ -47,7 +47,7 @@ const screenSobre = document.getElementById('pag-Sobre');
 navSobre.addEventListener('click', () => {
   screenSobre.scrollIntoView({ behavior: 'smooth' });
 });
-
+```
 
 ## Contribuição
 
