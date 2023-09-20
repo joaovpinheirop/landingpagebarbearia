@@ -22,9 +22,9 @@ Uma experiência completa é essencial para os visitantes da Landing Page da Bar
 
 A barra de navegação inclui links para as principais seções da Landing Page, permitindo que os usuários acessem facilmente informações sobre a barbearia, o proprietário e também agendem horários para os serviços de corte de cabelo e barba. Esta funcionalidade torna a experiência do usuário mais agradável e eficiente.
 
-### Estrutura da Navegação
+# Estrutura da Navegação
 
-Aqui está um exemplo básico da estrutura de uma navegação em HTML, com ênfase na semântica e na interatividade JavaScript:
+Este é um exemplo básico da estrutura de uma navegação em HTML, com ênfase na semântica e na interatividade JavaScript.
 
 ```html
 <nav>
@@ -36,16 +36,17 @@ Aqui está um exemplo básico da estrutura de uma navegação em HTML, com ênfa
 </nav>
 ````
 
-Utilizamos o elemento <nav> para indicar semanticamente que esta parte do código se refere à navegação.
+## Funcionalidade em JavaScript
 
-Usamos uma lista ordenada <ol> para criar os itens de menu, o que é uma prática comum para menus de navegação.
+Neste exemplo, utilizamos JavaScript para adicionar funcionalidade à nossa navegação. A funcionalidade permite que a página role suavemente para a seção correspondente quando o item "Sobre" é clicado.
 
-Cada item de menu é representado por um elemento <li> e possui um id para identificação.
+```javascript
+const navSobre = document.getElementById('nav-Sobre');
+const screenSobre = document.getElementById('pag-Sobre');
 
-Implementamos a funcionalidade onclick para cada item de menu, permitindo que você registre o clique do usuário e realize ações específicas em 
-
-JavaScript, como a navegação para a seção correspondente da página.
-
+navSobre.addEventListener('click', () => {
+  screenSobre.scrollIntoView({ behavior: 'smooth' });
+});
 
 
 ## Contribuição
