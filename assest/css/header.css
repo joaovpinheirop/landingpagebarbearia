@@ -141,6 +141,7 @@
 
   /* barra de navegação */
   .bar-navigation {
+    margin-inline: 10rem;
     flex-direction: row;
     align-items: center;
   }
@@ -221,6 +222,5 @@
   .intro_horario {
     font-size: 15px;
   }
-
 
 }
