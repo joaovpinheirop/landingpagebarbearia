@@ -44,11 +44,74 @@
   align-items: center;
 }
 
+.img-servico {
+  width: 132px;
+  height: 126px;
+  border-radius: 149px 44px 218px 149px;
+}
+
+.item-servico {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-servico-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.Servico {
+  padding-top: 10rem;
+  position: relative;
+  width: 100%;
+  height: 196px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.divisor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 215px;
+  width: 100px;
+}
+
+.barra-div-servico {
+  width: 2px;
+  height: 100%;
+  background: var(--color-primary);
+}
+
+.quadrado-div-servico {
+  width: 15px;
+  height: 15px;
+  transform: rotate(45deg);
+  background-color: white;
+}
+
+.servico-intro {
+  width: 132px;
+}
+
 @media (min-width: 800px) {
   .barbeiro-img-perfil {
     width: 402px;
     height: 399px;
   }
+
+  .img-servico {
+    width: 271px;
+    height: 270px;
+    flex-shrink: 0;
+  }
+
 
   .barbeiro {
     color: white;
@@ -56,6 +119,18 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+  }
+
+  .servico-intro {
+    width: 271px;
+  }
+
+  .Servico {
+    padding-top: 10rem;
+  }
+
+  .divisor {
+    height: 265px;
   }
 
 }
