@@ -86,7 +86,9 @@
   align-items: end;
   justify-content: space-between;
   padding: 2rem;
+  z-index: 10;
 }
+
 
 /* lista de navegação */
 .navigation {
