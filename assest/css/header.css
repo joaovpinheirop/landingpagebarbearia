@@ -141,7 +141,6 @@
 
   /* barra de navegação */
   .bar-navigation {
-    margin-inline: 10rem;
     flex-direction: row;
     align-items: center;
   }
