@@ -1,0 +1,66 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+  height: 400px;
+  width: 100vw;
+  max-width: 1000px;
+}
+
+hr {
+  margin-top: 2rem;
+  border-color: var(--color-primary);
+}
+
+.name-Barbershop {
+  margin: 0;
+}
+
+.subname-Barbershop {
+  margin: 0;
+}
+
+.footer-contact {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  justify-content: space-between;
+  direction: none;
+}
+
+.footer-contact a {
+  color: #FFF;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  color: white;
+}
+
+.rights {
+  color: #464646;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+
+}
+
+@media (max-width: 800px) {
+
+  .footer-contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+}

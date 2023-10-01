@@ -2,15 +2,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   /* Define a altura do elemento para 100% da altura da viewport */
   width: 100%;
-  background: linear-gradient(45deg, #000 20%, rgba(0, 0, 0, 0.00) 50%, var(--color-primary) 100%);
+  background: linear-gradient(20deg, #000 20%, rgba(0, 0, 0, 0.00) 50%, var(--color-primary) 100%);
+
 }
 
 
 
 .barbeiro {
+  padding-top: 5rem;
   max-width: 1000px;
   color: white;
   display: flex;
@@ -44,6 +46,72 @@
   align-items: center;
 }
 
+.services {
+  padding-top: 5rem;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: -webkit-fill-available;
+  padding-inline: 2rem;
+  color: white;
+}
+
+.service-iten {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-iten-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 149px 44px 218px 149px;
+}
+
+.service-img-reverse {
+  width: 150px;
+  height: 150px;
+  border-radius: 44px 149px 149px 218px;
+}
+
+.description {
+  width: 150px;
+}
+
+.divisor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+
+  height: 100%;
+}
+
+.divisor-quadrado {
+  transform: rotate(45deg);
+  background-color: white;
+  width: 10px;
+  height: 10px;
+}
+
+.divisor-bar {
+  margin: 10px;
+  width: 3px;
+  height: 100%;
+  background-color: var(--color-primary);
+}
+
 @media (min-width: 800px) {
   .barbeiro-img-perfil {
     width: 402px;
@@ -58,4 +126,18 @@
     justify-content: center;
   }
 
+  .service-img-reverse {
+    width: 250px;
+    height: auto;
+  }
+
+  .service-img {
+    width: 250px;
+    height: auto;
+
+  }
+
+  .description {
+    width: 250px;
+  }
 }
